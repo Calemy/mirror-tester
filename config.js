@@ -1,19 +1,19 @@
 module.exports = {
     server: [
         {
-            name: "Mino (v6) [DE]",
+            name: "Mino",
             url: "https://catboy.best",
             api: "https://catboy.best/api",
             color: "cyan"
         },
         {
-            name: "Chimu [DE]",
-            url: "https://chimu.moe",
-            api: "https://api.chimu.moe/v1",
-            color: "red"
+            name: "Beatconnect",
+            url: "https://beatconnect.io",
+            api: "https://beatconnect.io",
+            color: "purple"
         },
         {
-            name: "Kitsu (v2.1.1) [US]",
+            name: "Kitsu",
             url: "https://kitsu.moe",
             api: "https://kitsu.moe/api",
             color: "orange"
@@ -26,7 +26,9 @@ module.exports = {
         962088
     ],
     tests : {
-        direct: true,
+        maps: false,
+        sets: false,
+        direct: false,
         download: true
     }
 }
