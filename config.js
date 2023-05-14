@@ -13,10 +13,22 @@ module.exports = {
             color: "purple"
         },
         {
-            name: "Kitsu",
-            url: "https://kitsu.moe",
-            api: "https://kitsu.moe/api",
+            name: "osu!direct",
+            url: "https://osu.direct",
+            api: "https://osu.direct/api",
             color: "orange"
+        },
+        {
+            name: "Nerinyan",
+            url: "https://nerinyan.moe",
+            api: "https://nerinyan.moe/api",
+            color: "yellow"
+        },
+        {
+            name: "Chimu",
+            url: "chimu.moe",
+            api: "chimu.moe/api",
+            color: "red"
         }
     ],
     maps: [
